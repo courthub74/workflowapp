@@ -3,4 +3,24 @@
     height: 100vh;
     background-color: #243F67;
     color: white;
+    position: relative;
+
+    transition: 0.4s;
+}
+
+
+.NavHeading {
+    padding: 40px;
+}
+
+.list-down, a {
+    list-style-type: none;
+    line-height: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F3F9FF;
+    text-decoration: none;
+    font-size: large;
 }

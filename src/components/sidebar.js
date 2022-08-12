@@ -1,20 +1,34 @@
 import React from 'react';
 import './sidebar.css';
-import Calendar from './images/calendar';
+
 
 const Sidebar = () => {
     return (
 
         <div className='Sidebar'>
-            <h2>Workflow Center</h2>
+
+            <div className='NavHeading'>
+                <h2>Workflow Center</h2>
+            </div>
+
                 <ul className='list-down'>
-                    <div>
-                        <img src={Calendar} alt="calendar"/>
-                        <li>calendar</li>
+                    <div className='calendar'>
+                        
+                        <li><a href='#'>calendar</a></li>
                     </div>
-                    <li>notes</li>
-                    <li>tasks</li>
-                    <li>spreadsheet</li>
+
+                    <div className='notes'>
+                        <li><a href='#'>notes</a></li>
+                    </div>
+
+                    <div className='tasks'>
+                        <li><a href='#'>tasks</a></li>
+                    </div>
+
+                    <div className='spreadsheet'>
+                        <li><a href='#'>spreadsheet</a></li>
+                    </div>
+
                 </ul>
         </div>
         
