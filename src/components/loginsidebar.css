@@ -1,0 +1,28 @@
+.loginsidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: #243F67;
+    color: white;
+    position: relative;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    gap: 500px;
+}
+
+.NavHeading {
+    padding: 40px;
+}
+
+.annonbutton { 
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: #243F67 2px solid;
+  background-color: white;
+  color: #243F67;
+}
+
+.annonymouslogin p {
+    font-size: large;
+}

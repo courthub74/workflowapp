@@ -1,5 +1,6 @@
 import './App.css';
-import Sidebar from './components/sidebar';
+// import Sidebar from './components/sidebar';
+import Loginsidebar from './components/loginsidebar';
 import Courdevelops from './images/courdevelops.png';
 
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
 
       <div className='body'>
-        <Sidebar/>
+        <Loginsidebar/>
+        {/* <Sidebar/> */}
         
         
         <div className='mainheader'>
@@ -27,7 +29,7 @@ function App() {
             <button className='submit'>Submit</button>
           </div>
 
-          
+
         </div>
       </div>
       
