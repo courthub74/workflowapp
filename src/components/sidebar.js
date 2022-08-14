@@ -1,6 +1,6 @@
 import React from 'react';
 import './sidebar.css';
-
+// import calendar from './images/calendar.svg';
 
 const Sidebar = () => {
     return (
@@ -11,9 +11,11 @@ const Sidebar = () => {
                 <h2>Workflow Center</h2>
             </div>
 
+            
+
                 <ul className='list-down'>
                     <div className='calendar'>
-                        
+                        {/* <img src={calendar} alt='calendar' /> */}
                         <li><a href='#'>calendar</a></li>
                     </div>
 
