@@ -26,6 +26,31 @@
   border: none;
 }
 
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  border-radius: 5px;
+}
+
 input::placeholder {
   color: white;
+  padding: 10px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: #243F67 2px solid;
+  background-color: white;
+  color: #243F67;
+}
+
+
+.submit, .login {
+  font-size: large;
 }
