@@ -11,25 +11,29 @@ function App() {
       <div className='body'>
         <Loginsidebar/>
         {/* <Sidebar/> */}
+
+
+        <div className='pagepart'>
         
         
-        <div className='mainheader'>
+          <div className='mainheader'>
 
 
-          <img className='Courdevelops' src={Courdevelops} alt="Logo"/>
-          <h1>This is the Workflow Machine</h1>
+            <img className='Courdevelops' src={Courdevelops} alt="Logo"/>
+            <h1>This is the Workflow Machine</h1>
 
-          <div className='inputs'>
-            <p className='login'>Login</p>
-            <input className='user' placeholder='username'></input>
-            <input className='password' placeholder='password'></input>
+            <div className='inputs'>
+              <p className='login'>Login</p>
+              <input className='user' placeholder='username'></input>
+              <input className='password' placeholder='password'></input>
+            </div>
+
+            <div className='submitbutton'>
+              <button className='submit'>Submit</button>
+            </div>
+
+
           </div>
-
-          <div className='submitbutton'>
-            <button className='submit'>Submit</button>
-          </div>
-
-
         </div>
       </div>
       
