@@ -36,12 +36,15 @@
 }
 
 .headliner {
-  font-size: xx-large;
-  
+  font-size: 5vh;
 }
 
 .loginfield {
   display: flex;
+}
+
+.login {
+  text-align: left;
 }
 
 .inputs {
@@ -50,13 +53,14 @@
   gap: 20px;
 }
 
+
 input {
   border-radius: 5px;
   width: 500px;
 }
 
 input::placeholder {
-  color: white;
+  color: rgba(255, 255, 255, 0.589);
   padding: 10px;
 }
 
@@ -80,3 +84,4 @@ button {
 .submit, .login {
   font-size: large;
 }
+
