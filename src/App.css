@@ -18,7 +18,7 @@
 }
 
 
-.mainheader, h1{
+.mainheader {
   color: #243F67;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,15 @@
   background-color: #243F67;
   color: #F3F9FF;
   border: none;
+}
+
+.headliner {
+  font-size: xx-large;
+  
+}
+
+.loginfield {
+  display: flex;
 }
 
 .inputs {
@@ -51,6 +60,8 @@ input::placeholder {
   padding: 10px;
 }
 
+
+
 button {
   height: 100px;
   width: 100px;
@@ -60,6 +71,11 @@ button {
   color: #243F67;
 }
 
+
+.submitbutton {
+  padding-top: 80px;
+  padding-left: 20px;
+}
 
 .submit, .login {
   font-size: large;
