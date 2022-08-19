@@ -1,0 +1,39 @@
+// colors
+$navblue: #243F67;
+$pageblue: #F3F9FF;
+
+.body {
+    display: flex;
+    padding: 0px 0px 0px 30px;
+    text-align: center;
+    height: 100vh;
+    .pagepart {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+        .mainheader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            width: 1000px;
+            input {
+                width: 420px;
+                height: 40px;
+                background-color: $navblue;
+                color: $pageblue;
+                border: none;
+            }
+            .headliner {
+                font-size: 5vh;
+                color: $navblue;
+            }
+            .login {
+                color: $navblue;
+            }
+        }
+    }
+}

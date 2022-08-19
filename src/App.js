@@ -1,47 +1,37 @@
 import './App.css';
 // import Sidebar from './components/sidebar';
 import Loginsidebar from './components/loginsidebar';
-import Courdevelops from './images/courdevelops.png';
+import Loginpage from './pages/loginpage';
+import React, {useState} from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 function App() {
+  // admin info
+  // const adminUser = {
+  //   username: "courdevelops",
+  //   password: "SetuP12@9",
+  // }
+
+  // const [user, setUser] = useState({name: "", email: ""});
+  // const [error, setError] = useState("");
+
+  // const Login = details => {
+  //   console.log(details);
+  // }
+
+  // const Logout = () => {
+  //   console.log("Logout");
+  // }
+
   return (
     <div className="App">
 
       <div className='body'>
         <Loginsidebar/>
-        {/* <Sidebar/> */}
-
-
-        <div className='pagepart'>
-        
-        
-          <div className='mainheader'>
-
-
-            <img className='Courdevelops' src={Courdevelops} alt="Logo"/>
-            <p className='headliner'>This is the Workflow Machine</p>
-
-
-            <div className='loginfield'>
-
-                <div className='inputs'>
-                  <p className='login'>Login</p>
-                  <input className='user' placeholder='username'></input>
-                  <input className='password' placeholder='password'></input>
-                </div>
-
-                <div className='submitbutton'>
-                  <button className='submit'>Submit</button>
-                </div>
-
-            </div>
-
-
-          </div>
-        </div>
+        <Loginpage/>
+       
       </div>
-      
     </div>
   );
 }

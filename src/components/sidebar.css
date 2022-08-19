@@ -4,7 +4,8 @@
     background-color: #243F67;
     color: white;
     position: relative;
-
+    top: 0;
+    
     transition: 0.4s;
 }
 
