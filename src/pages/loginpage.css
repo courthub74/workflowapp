@@ -32,4 +32,53 @@
 }
 .body .pagepart .mainheader .login {
   color: #243F67;
+}
+.body .pagepart .mainheader .loginfield {
+  display: flex;
+}
+.body .pagepart .mainheader .inputs .login {
+  text-align: left;
+  font-size: xx-large;
+}
+.body .pagepart .mainheader .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: red; */
+}
+.body .pagepart .mainheader input {
+  border-radius: 5px;
+  width: 400px;
+}
+.body .pagepart .mainheader input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.589);
+  padding: 10px;
+}
+.body .pagepart .mainheader input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.589);
+  padding: 10px;
+}
+.body .pagepart .mainheader input::placeholder {
+  color: rgba(255, 255, 255, 0.589);
+  padding: 10px;
+}
+.body .pagepart .mainheader button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: #243F67 2px solid;
+  background-color: white;
+  color: #243F67;
+}
+.body .pagepart .mainheader button:hover {
+  cursor: pointer;
+}
+.body .pagepart .mainheader .submitbutton {
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 20px;
+  /* background-color: yellow; */
+}
+.body .pagepart .mainheader .submit, .body .pagepart .mainheader .login {
+  font-size: large;
 }/*# sourceMappingURL=loginpage.css.map */
