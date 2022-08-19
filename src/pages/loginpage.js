@@ -1,10 +1,13 @@
 import React from 'react';
 import Courdevelops from '../images/courdevelops.png';
+import Loginsidebar from '../components/loginsidebar';
 import './loginpage.css';
 
 function Loginpage() {
   return (
     <div className='body'>
+
+        <Loginsidebar/>
 
         {/* LOGIN PAGE */}
         <div className='pagepart'>

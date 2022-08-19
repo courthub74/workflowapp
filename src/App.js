@@ -1,6 +1,6 @@
 import './App.css';
 // import Sidebar from './components/sidebar';
-import Loginsidebar from './components/loginsidebar';
+// import Loginsidebar from './components/loginsidebar';
 import Loginpage from './pages/loginpage';
 import React, {useState} from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -28,7 +28,7 @@ function App() {
     <div className="App">
 
       <div className='body'>
-        <Loginsidebar/>
+        {/* <Loginsidebar/> */}
         <Loginpage/>
        
       </div>
