@@ -4,7 +4,7 @@ $pageblue: #F3F9FF;
 
 .body {
     display: flex;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 00px;
     text-align: center;
     height: 100vh;
     .pagepart {
@@ -12,7 +12,6 @@ $pageblue: #F3F9FF;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-left: 10%;
         .mainheader {
             display: flex;
             flex-direction: column;
