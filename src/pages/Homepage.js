@@ -9,12 +9,12 @@ function Homepage() {
 
       <Sidebar/>
 
-    
-        <div className='headerlogo'>
-            <img className='logo' src={Courdevelops} alt="Logo"/>
-        </div>
-
         <div className='headerhome'>
+
+          <div className='logospace'>
+            <img className='logo' src={Courdevelops} alt="Logo"/>
+          </div>
+          
           <p>'Blank' you've logged into the workflow machine</p>
           <div className='recents'>check out your recents</div>
         </div>
