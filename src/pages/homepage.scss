@@ -3,25 +3,24 @@ $navblue: #243F67;
 $pageblue: #F3F9FF;
 
 .body {
-    .logo {
-        padding-top: 50px;
-        padding-left: 40px;
-        width: 200px;
-    }
     .headerhome {
-        // background-color: orange;
+        background-color: orange;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 200px;
+        justify-content: space-evenly; 
+        align-items: left;
+        padding: 50px;
         margin-bottom: 200px;
+        .logospace {
+            background-color: yellow;
+            display: flex;
+        }
         p {
-            font-size: 8vh;
+            font-size: 5vh;
             color: $navblue;
-            // background-color: aqua;
+            background-color: aqua;
             width: 900px;
-            margin-top: 400px;
+            // margin-top: 300px;
         }
         .recents {
             font-size: 3vh;
