@@ -1,0 +1,89 @@
+// colors
+$navblue: #243F67;
+$pageblue: #F3F9FF;
+
+.body {
+    display: flex;
+    padding: 0px 0px 0px 00px;
+    text-align: center;
+    height: 100vh;
+    .pagepart {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .mainheader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            width: 1000px;
+            input {
+                width: 420px;
+                height: 40px;
+                background-color: $navblue;
+                color: $pageblue;
+                border: none;
+            }
+            .headliner {
+                font-size: 5vh;
+                color: $navblue;
+            }
+            .login {
+                color: $navblue;
+            }
+            .loginfield {
+                display: flex;
+            }
+            .inputs .login {
+                text-align: left;
+                font-size: xx-large;
+              }
+              
+              .inputs {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                /* background-color: red; */
+              }
+              
+              input {
+                border-radius: 5px;
+                width: 400px;
+              }
+              
+              input::placeholder {
+                color: rgba(255, 255, 255, 0.589);
+                padding: 10px;
+              }
+              
+              button {
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                border: #243F67 2px solid;
+                background-color: white;
+                color: #243F67;
+              }
+              
+              button:hover {
+                cursor: pointer;
+              }
+              
+              
+              .submitbutton {
+                padding-top: 130px;
+                padding-left: 50px;
+                padding-right: 20px;
+                /* background-color: yellow; */
+              }
+              
+              .submit, .login {
+                font-size: large;
+              }
+              
+
+        }
+    }
+}
